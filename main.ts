@@ -24,7 +24,7 @@ type Candidate = {
 const candidates: Candidate[] = [
   {
     text: "At six in the morning my grandmother pressed a dumpling into my palm, hot from the steamer, pork and chive juice running down my wrist, and I learned love smelled of ginger and scallion oil.",
-    scores: { subject: 2, concrete: 3, personal: 2, clean: 2, landing: 2 },
+    scores: { subject: 2, concrete: 3, personal: 2, clean: 2, landing: 1 },
     note: "Grandmother's kitchen at dawn; named dish, heat, juice, smell; the ending turns love into a smell.",
   },
   {
@@ -33,7 +33,7 @@ const candidates: Candidate[] = [
     note: "Night-market stall; named dish, sizzle, sauce; warm ending but the last line is dialogue, not an image.",
   },
   {
-    text: "At a train-station noodle counter in winter I ate beef noodles standing up, steam fogging my glasses, the broth so rich I drank it to the last drop and missed my train, and I never once regretted it.",
+    text: "Kyoto Station, 11:52 p.m., a ¥680 bowl of ramen from an old man named Mr. Ota. I drank every drop, missed the last train, and paid ¥9,400 for a cab. Best ¥10,080 I've ever spent.",
     scores: { subject: 2, concrete: 3, personal: 2, clean: 2, landing: 2 },
     note: "Station noodle counter; named dish, steam, broth; the turn is the missed train, gladly missed.",
   },
